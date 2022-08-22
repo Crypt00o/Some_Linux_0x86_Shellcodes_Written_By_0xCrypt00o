@@ -1,0 +1,104 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;            newtwork_send_recive_20byte.asm                      |
+;    [+] Hello Iam Crypt00o #                                     |
+;  if you run this code you need to                               |
+;                                                                 |
+;$ nc -nvlp 8080                                                  |$ ./newtwork_send_recive_20byte
+;connect to [127.0.0.1] from (UNKNOWN) [127.0.0.1] 39114          | hello
+;[+] Hello From 0xCrypt00o Client , Write A Message :    hello    |
+;$                                                                |
+;                                                                 |
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ xor eax,eax
+ push eax
+ push 0xd4ffed75
+ push 0xd1394112
+ push 0x3456788c
+ push 0x3481abf2
+ push 0xabcd8c34
+ push 0x8142b2c9
+ push 0x31d23162
+ push 0xf73d8468
+ push 0x6bf73484
+ push 0x685c4f02
+ push 0x84683ad6
+ push 0x113668bf
+ push 0xac025168
+ push 0xbbacfcdf
+ push 0x68df761c
+ push 0x3c68390b
+ push 0xfc066888
+ push 0x3ab83c68
+ push 0x881dcc75
+ push 0x683a14cc
+ push 0x7c68d196
+ push 0xef7168aa
+ push 0xf2abb268
+ push 0xc1e2c934
+ push 0x68dfd4c9
+ push 0xe368df56
+ push 0xe2dd68dc
+ push 0x4fffdf68
+ push 0xe906cc4d
+ push 0x68cc39ed
+ push 0xdf6845b3
+ push 0x024d6888
+ push 0x32983c68
+ push 0x881dcc75
+ push 0x683214cc
+ push 0x7c68df76
+ push 0x09f86839
+ push 0x0bfe0668
+ push 0x61ff2684
+ push 0x68889514
+ push 0xc068881d
+ push 0xcc756888
+ push 0x14cc7c68
+ push 0x881dcc75
+ push 0x68e914cc
+ push 0x7c6899e6
+ push 0xdddd68dc
+ push 0xa1959568
+ push 0xdcaec795
+ push 0x68d1a78e
+ push 0xc668f4e6
+ push 0xbc9568cd
+ push 0xaf8fdd68
+ push 0x95e695d0
+ push 0x68d0aeaa
+ push 0x9568d1b2
+ push 0x93d068d5
+ push 0x85ddda68
+ push 0x89b28ddd
+ push 0x68fabe95
+ push 0x8568d6ae
+ push 0x84c768d1
+ push 0xf6ddd868
+ push 0xcb80ddda
+ push 0x68d5a3b5
+ push 0xdd68929d
+ push 0x95d968bd
+ push 0x76dde868
+ push 0x584fc407
+ push 0x68743aa0
+ push 0x3e68852a
+ push 0x7e356862
+ push 0xf73d8468
+ push 0x6bf73484
+ push 0x68092280
+ push 0x38680b3f
+ push 0x74b66845
+ push 0x9b76ba68
+ push 0x79f77d78
+ push 0x6870f726
+ push 0x8468f44b
+ push 0x2f84680a
+ push 0xc24d5168
+ push 0x74d64fb4
+ push 0x688806cc
+ push 0x3568880f
+ push 0xcc6e6874
+ push 0xc74d6768
+ push 0xb9c6fd35
+ push 0x6850c031
+ call esp
