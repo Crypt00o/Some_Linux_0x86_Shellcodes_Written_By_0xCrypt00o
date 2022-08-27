@@ -4,8 +4,8 @@
 ; if you run this code you will get :                              ;
 ;                                                                  ;
 ;                                                                  ;
-; [+] 0xCrypt00o Going To Spawn A Linux Shell                      ;
-; crypto@kali:~$                                                   ;
+; [+] 0xCrypt00o Going To Spawn A Root Shell                       ;
+; root@kali:~#                                                     ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 xor dword[esp],0x12345678
